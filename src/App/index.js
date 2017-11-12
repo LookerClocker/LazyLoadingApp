@@ -27,37 +27,3 @@ const App = (props) => (
 );
 
 export default {component: App, props: sortedTabs}
-
-// let sortedTabs = [];
-// class App extends React.Component {
-//     constructor(props) {
-//         super(props);
-//         this.state = {sortedTabs: []}
-//     }
-//
-//     componentDidMount() {
-//
-//             sortedTabs = tabs.sort((prev, next) => {
-//                 if (prev.order > next.order) {
-//                     return 1;
-//                 }
-//                 if (prev.order < next.order) {
-//                     return -1;
-//                 }
-//             })
-//     }
-//
-//     render() {
-//         return (
-//             <div>
-//                 {this.props.children}
-//             </div>
-//         )
-//     }
-// }
-//
-// App.defaultProps = {
-//     sortedTabs
-// };
-//
-// export default App;
