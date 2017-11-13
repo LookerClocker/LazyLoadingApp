@@ -2,8 +2,6 @@ React-Router Dynamic Components Loading
 
 Setup: npm install
 
-Build: npm run build
-
 Start: npm start
 
 System Requirements: Node 6.x.x

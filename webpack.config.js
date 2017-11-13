@@ -28,8 +28,7 @@ const plugins = [
 ];
 
 const jsEntry = [
-    'index',
-    'tabs/dummyList',
+    'index'
 ];
 
 if (isProd) {
